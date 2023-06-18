@@ -4,7 +4,7 @@ HTML stands for Hyper Text Markup Language and it was created by Tim Berner Lie 
 
 HTML tree:
 
-image 1
+![HTML-Tree-Structure](https://github.com/ApurbaKumarMajumder/CB-Web-Development-Course/assets/65047407/7595680b-5e30-444c-aead-d109a4d7c948)
 
 Elements in HTML are of two types
 
