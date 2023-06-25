@@ -1,7 +1,6 @@
 /* Unversal Selectors */
 *{
     border: 1px solid gray;
-    background-color: rgb(164, 149, 121);
 }
 
 /* Element Selector */
@@ -9,11 +8,6 @@
 h3{
     color: orange;
     text-align: center;
-}
-
-p {
-    text-align: end;
-    text-decoration: underline;
 }
 
 /* Id Selector */
@@ -31,30 +25,30 @@ p {
 }
 
 .para{
-    font-style: normal;
+    font-style: italic;
 }
 
-.film {
-    border: 2px solid red;
+.film{
+    border: 2px solid green;
     text-transform: uppercase;
 }
 
-.blue {
+.blue{
     color: blue;
 }
 
-.fs-1 {
-    font-size: 20px;
+.fs-1{
+    font-size: 16px;
+}
+
+.fav-movie.film{
+    font-size: 40px;
 }
 
 /* Attribute Selector */
 a[href="http://google.com"]{
     font-size: 30px;
-    color: rgb(65, 56, 40);
-}
-input[type="text"] {
-    background-color: rgb(162, 174, 162);
-    border: 10px dotted brown;
+    color: orange;
 }
 
 input[type="email"]{
@@ -62,16 +56,50 @@ input[type="email"]{
     border: 5px solid red;
 }
 
-/* DeDescendant Selector */
+/* Descendant selector */
 
-p strong {
+p strong{
     color: purple;
     font-weight: bold;
 }
 
-section {
-    width
+section{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    background-color: aqua;
 }
 
-/* Pseudo Selectors */
 
+/* Pseudo Selectors */
+section:hover{
+    border-radius: 50%;
+}
+
+h1:active{
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+input:focus{
+    background-color: lightcoral;
+    font-size: 30px;
+}
+
+a:visited{
+    color: green;
+}
+
+/* Structral Pseudo class */
+
+ul li:first-child{
+    text-decoration: line-through;
+}
+
+ul li:last-child{
+    text-decoration: line-through;
+}
+
+ol li:nth-of-type(2n+5){
+    color: blueviolet;
+}
