@@ -1,0 +1,77 @@
+/* Unversal Selectors */
+*{
+    border: 1px solid gray;
+    background-color: rgb(164, 149, 121);
+}
+
+/* Element Selector */
+
+h3{
+    color: orange;
+    text-align: center;
+}
+
+p {
+    text-align: end;
+    text-decoration: underline;
+}
+
+/* Id Selector */
+
+#heading{
+    color: red;
+    border: 2px solid green;
+}
+
+/* Class Selector */
+
+.fav-movie{
+    font-weight: bold;
+    color: purple;
+}
+
+.para{
+    font-style: normal;
+}
+
+.film {
+    border: 2px solid red;
+    text-transform: uppercase;
+}
+
+.blue {
+    color: blue;
+}
+
+.fs-1 {
+    font-size: 20px;
+}
+
+/* Attribute Selector */
+a[href="http://google.com"]{
+    font-size: 30px;
+    color: rgb(65, 56, 40);
+}
+input[type="text"] {
+    background-color: rgb(162, 174, 162);
+    border: 10px dotted brown;
+}
+
+input[type="email"]{
+    background-color: aqua;
+    border: 5px solid red;
+}
+
+/* DeDescendant Selector */
+
+p strong {
+    color: purple;
+    font-weight: bold;
+}
+
+section {
+    width
+}
+
+/* Pseudo Selectors */
+
