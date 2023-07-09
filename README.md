@@ -27,3 +27,14 @@ There are three types of fonts mainly
 4. Attributes Selector
 5. Element Selector
 
+# CSS Units
+
+There are two types of units.
+
+1. Absolute Units: The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
+
+    Absolute length units are not recommended for use on screen, because screen sizes vary so much. However, they can be used if the output medium is known, such as for print layout. ex. px cm in
+
+2. Relative Units: Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.
+    ex. %, em, rem, vm, vh
+
