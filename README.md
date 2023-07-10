@@ -38,3 +38,8 @@ There are two types of units.
 2. Relative Units: Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.
     ex. %, em, rem, vm, vh
 
+# CSS Positions
+
+It is how we place different element on a page. It is way to change normal flow of elements in html.
+
+position can be static, relative, absolute, fixed and stickey.
